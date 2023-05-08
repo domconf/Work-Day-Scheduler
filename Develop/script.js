@@ -26,4 +26,20 @@ $(document).ready(function () {
     }
   });
 
+  //Load saved data from localStorage
+  $(".description").each(function () {
+    const id = $(this).closest(".time-block").attr("id");
+    const schedule = localStorage.getItem(id);
+    if (schedule !== null) {
+      $(this).text(schedule);
+    }
+  });
+
+  //Added function for save button
+  $(".saveBtn").on("click", function () {
+    const id = $(this).closest(".time-block").attr("id");
+    const schedule = $(this).siblings(".description").val();
+    localStorage.setItem(id, schedule);
+  });
+
 });
