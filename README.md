@@ -13,5 +13,7 @@ The Work Day Scheduler is extremely easy to use. Simply click the time slot that
 
 ## Link
 
+https://domconf.github.io/Work-Day-Scheduler/
+
 ## Author
 Dominick Confessore
