@@ -9,6 +9,7 @@ The Work Day Scheduler is extremely easy to use. Simply click the time slot that
 
 ## Screenshots
 
+![Screenshot 2023-05-08 at 2 25 31 PM](https://user-images.githubusercontent.com/123976458/236903744-d07564ea-3027-435a-b7f0-48399515fb8f.png)
 
 ## Link
 
